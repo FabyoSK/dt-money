@@ -18,6 +18,10 @@ export const Container = styled.div`
       align-items: center;
       justify-content: space-between;
     }
+    &.total {
+      color: #ffffff;
+      background: var(--green);
+    }
     strong {
       display: block;
       margin-top: 1rem;
